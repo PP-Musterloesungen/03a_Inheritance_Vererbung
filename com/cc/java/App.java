@@ -5,7 +5,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        Cat cat = new Cat("Grizabella", "white", 29);  // instanziierung
+        Cat cat = new Cat("Grizabella", "white", 29);
         output("Name: " + cat.getStringAttributes("#name"));
         output("Fellfarbe: " + cat.getStringAttributes("#furColor"));
         output("Alter: " + cat.getAge());
@@ -27,4 +27,3 @@ public class App {
     }
 
 }
-
